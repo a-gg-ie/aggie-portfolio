@@ -241,6 +241,26 @@ body {
   margin-bottom: 0.5rem;
 }
 
+.project-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  font-family: 'Fira Code', monospace;
+  font-size: 0.8rem;
+}
+
+.project-links a {
+  color: var(--text-secondary);
+  text-decoration: underline;
+  text-underline-offset: 0.25em;
+  transition: color 0.3s ease;
+}
+
+.project-links a:hover,
+.project-links a:focus-visible {
+  color: var(--accent);
+}
+
 .project-desc {
   max-width: 400px;
   font-size: 1.1rem;

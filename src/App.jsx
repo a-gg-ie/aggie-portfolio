@@ -148,7 +148,7 @@ function App() {
         {/* Projects */}
         <section className="raw-section">
           <RevealText>
-            <h2 className="section-title">04. EXECUTED TASKS</h2>
+            <h2 className="section-title">04. SELECTED PROJECTS</h2>
           </RevealText>
 
           <div className="project-list">
@@ -167,11 +167,15 @@ function App() {
             <RevealText delay={0.2}>
               <div className="project-row">
                 <div className="project-info">
-                  <h2>DEPT. REPRESENTATIVE</h2>
-                  <p className="highlight">COLLEGE RADIO</p>
+                  <h2>VIBE TRIP PLANNER</h2>
+                  <p className="highlight">TRIP-PLANNING WEB APP</p>
+                  <div className="project-links">
+                    <a href="https://github.com/a-gg-ie/vibe-trip-planner" target="_blank" rel="noreferrer">GITHUB REPOSITORY</a>
+                    <a href="https://vibe-trip-planner-five.vercel.app/" target="_blank" rel="noreferrer">LIVE PROJECT</a>
+                  </div>
                 </div>
                 <div className="project-desc">
-                  <p>Primary liaison coordinating broadcast schedules. Ensured tasks were tracked and executed on time.</p>
+                  <p>Plan your next trip with Vibe Trip Planner.</p>
                 </div>
               </div>
             </RevealText>
